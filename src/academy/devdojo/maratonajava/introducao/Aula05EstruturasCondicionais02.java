@@ -2,17 +2,18 @@ package academy.devdojo.maratonajava.introducao;
 
 public class Aula05EstruturasCondicionais02 {
     public static void main(String[] args) {
-        int idade = 12;
+        int idade =16;
+        String categoria = "";
 
         if(idade < 15) {
-            System.out.println("infantil");
+            categoria = "Categoria infantil";
         }
         else if(idade >= 15 && idade <18) {
-            System.out.println("juvenil");
+            categoria = "Categoria juvenil";
         }
         else {
-            System.out.println("adulto");
+            categoria = "Categoria adulto";
         }
-
+        System.out.println(categoria);
     }
 }
