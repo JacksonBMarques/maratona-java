@@ -1,0 +1,26 @@
+package academy.devdojo.maratonajava.javacore.Aintroducaoclasses.test;
+
+import academy.devdojo.maratonajava.javacore.Aintroducaoclasses.dominio.Carro;
+
+public class CarroTest01 {
+    public static void main(String[] args) {
+        Carro carro1 = new Carro();
+        Carro carro2 = new Carro();
+
+        carro1.modelo = "Sport";
+        carro1.nome = "Fusca";
+        carro1.ano = 1972;
+
+        carro2.modelo = "mustang";
+        carro2.nome = "GT 500";
+        carro2.ano = 2027;
+
+        System.out.println(carro1.modelo);
+        System.out.println(carro1.nome);
+        System.out.println(carro1.ano);
+        System.out.println("===================");
+        System.out.println(carro2.modelo);
+        System.out.println(carro2.nome);
+        System.out.println(carro2.ano);
+    }
+}
